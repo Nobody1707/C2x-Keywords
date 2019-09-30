@@ -11,7 +11,7 @@
  * are defined as ints instead of as _Bools.
  */
 
-#ifndef __cplusplus // C versions of the macros.
+#ifndef __cplusplus
 
 #ifndef alignas
 #define alignas _Alignas
@@ -39,34 +39,6 @@
 #endif
 #ifndef false
 #define false ((bool)+0)
-#endif
-
-#else // C++ versions of the macros.
-
-#ifndef alignas
-#define alignas alignas
-#endif
-#ifndef alignof
-#define alignof alignof
-#endif
-#ifndef thread_local
-#define thread_local thread_local
-#endif
-#ifndef static_assert
-#define static_assert static_assert
-#endif
-#ifndef nullptr
-#define nullptr nullptr
-#endif
-// Do I really need to check the boolean macros individually?
-#ifndef bool
-#define bool bool
-#endif
-#ifndef true
-#define true true
-#endif
-#ifndef false
-#define false false
 #endif
 
 #endif
