@@ -67,5 +67,6 @@
 #endif
 #ifndef false
 #define false false
+#endif
 
 #endif
