@@ -41,7 +41,7 @@
 #define false ((bool)+0)
 #endif
 
-#elseif // C++ versions of the macros.
+#else // C++ versions of the macros.
 
 #ifndef alignas
 #define alignas alignas
